@@ -1,0 +1,122 @@
+
+body{
+    background-image: url("images/background_4.jpg");
+    background-position: center center;
+    background-size: 90% 300%;
+}
+h1{
+   color: rgb(243, 241, 241);
+   font-size: xx-large;
+   text-align: center;
+   margin: 0;
+}
+h2{
+    color: white;
+    margin: 0;
+    text-align: left;
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    float: left;
+}
+h3{
+    color:white;
+    margin: 0;
+    text-align: right;
+    position: bottom left;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    float: right;
+}
+
+h4{
+
+    object-position: relative;
+    text-align: center;
+    display:inline;
+    float: left;
+}
+h5{
+    object-position: 80% 50%;
+    text-align: center;
+    display: inline;
+    float: right;
+}
+
+blockquote::before{
+    content: open-quote;
+}
+blockquote::after{
+    content: close-quote;
+}
+blockquote {
+    max-width: 700px;
+    width: auto;
+    color:white;
+    text-align: center;
+    margin: auto;
+    line-break: auto;
+    font-weight: bolder;
+    font-style: italic;
+    quotes: "“" "”";
+    display: block;
+    
+}
+.centerPhoto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+ins{
+    max-width: 500px;
+    position:absolute;
+    top: 380px;
+    left: 0;
+    width: auto;
+    display: left;
+    font-size: 200%;
+    color: white;
+    text-align: left;
+    font-style: bolder;
+    font-weight: 800;
+    line-break: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.middle-left {
+    object-position: 10% 50%;
+    border-radius: 60%;
+}
+.middle-right{
+    object-position: 50% 50%;
+    border-color: black;
+    border-radius: 80%;
+}
+a:link{
+    background-color: whitesmoke;
+}
+a:visited{
+    background-color: cyan;
+}
+a:hover{
+    background-color: greenyellow;
+}
+a:link, a:visited{
+    text-align: left center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    font-weight: bold;
+    display: inline-block;
+}
+blockquote{
+    font-size: 200%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
